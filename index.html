@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Cache-Control" content="no-store">
+<title>备考复习 · 下载</title>
+<style>
+  *,*::before,*::after{box-sizing:border-box}
+  :root{
+    --ink:#16181d; --muted:#63676f; --line:#e4e6eb; --surface:#fff; --wash:#f6f7f9;
+    --green:#0f7a4a; --green-soft:#e8f5ee; --blue:#1d4ed8; --blue-soft:#eef2ff;
+  }
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0;background:var(--wash);color:var(--ink);
+    font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",system-ui,sans-serif;
+    font-size:15px;line-height:1.7;
+  }
+  .wrap{max-width:860px;margin:0 auto;padding:56px 22px 80px}
+  header{margin-bottom:38px}
+  .kicker{font-size:12px;letter-spacing:.22em;text-transform:uppercase;color:var(--muted);margin:0 0 14px}
+  h1{font-size:clamp(26px,4.4vw,36px);line-height:1.24;margin:0 0 12px;letter-spacing:-.01em}
+  .lede{margin:0;color:var(--muted);max-width:56ch}
+  .meta{margin-top:18px;display:flex;flex-wrap:wrap;gap:8px}
+  .chip{display:inline-flex;align-items:center;gap:6px;padding:4px 11px;border:1px solid var(--line);
+    border-radius:999px;background:var(--surface);font-size:12.5px;color:var(--muted)}
+  .chip b{color:var(--ink);font-weight:600}
+  .grid{display:grid;gap:18px;grid-template-columns:repeat(auto-fit,minmax(300px,1fr))}
+  .card{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:24px;
+    display:flex;flex-direction:column;box-shadow:0 1px 2px rgba(16,24,40,.04)}
+  .card h2{margin:0 0 4px;font-size:19px;letter-spacing:-.01em}
+  .card .sub{margin:0 0 16px;color:var(--muted);font-size:13.5px}
+  .dl{display:inline-flex;align-items:center;justify-content:center;gap:8px;height:46px;padding:0 20px;
+    border-radius:11px;background:var(--ink);color:#fff;text-decoration:none;font-weight:600;font-size:15px;
+    transition:transform .12s ease,opacity .12s ease}
+  .dl:hover{transform:translateY(-1px);opacity:.92}
+  .dl.alt{background:var(--blue)}
+  .dl.ghost{background:transparent;color:var(--ink);border:1px solid var(--line)}
+  .facts{margin:16px 0 0;padding:14px 0 0;border-top:1px dashed var(--line);
+    display:grid;grid-template-columns:auto 1fr;gap:6px 14px;font-size:12.5px;color:var(--muted)}
+  .facts dt{margin:0}
+  .facts dd{margin:0;text-align:right;color:var(--ink);font-variant-numeric:tabular-nums;word-break:break-all}
+  .note{margin:18px 0 0;padding:12px 14px;border-radius:10px;background:var(--wash);font-size:13px;color:var(--muted)}
+  .note b{color:var(--ink)}
+  .warn{background:var(--green-soft);border:1px solid #cfe9db}
+  .warn span{color:var(--green)}
+  h3{font-size:14px;letter-spacing:.02em;margin:34px 0 10px;color:var(--muted);text-transform:uppercase}
+  ol{margin:0;padding-left:20px;color:var(--muted)}
+  ol li{margin:6px 0}
+  ol b{color:var(--ink)}
+  .web{margin-top:34px;padding:22px 24px;border-radius:16px;background:var(--surface);border:1px solid var(--line);
+    display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:14px}
+  .web div{max-width:46ch}
+  .web strong{display:block;margin-bottom:2px}
+  .web span{color:var(--muted);font-size:13.5px}
+  footer{margin-top:44px;padding-top:18px;border-top:1px solid var(--line);color:var(--muted);font-size:12.5px;
+    display:flex;flex-wrap:wrap;gap:10px;justify-content:space-between}
+  footer a{color:var(--muted)}
+  code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:12px}
+  @media (max-width:560px){
+    .wrap{padding:34px 16px 64px}
+    .facts{grid-template-columns:1fr;gap:2px}
+    .facts dd{text-align:left;margin-bottom:6px}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <p class="kicker">Study Hub · Mobile</p>
+    <h1>备考复习 · 移动端</h1>
+    <p class="lede">与网页端同一份内容，装进手机后离线也能翻。发布包由本机直接构建，安装包与版本清单同源，可应用内检查更新。</p>
+    <div class="meta">
+      <span class="chip">版本 <b>2.0.0</b></span>
+      <span class="chip">网页构建 <b>20261019-7ab8d822</b></span>
+      <span class="chip">发布于 <b>2026-10-19</b></span>
+    </div>
+  </header>
+
+  <div class="grid">
+    <section class="card">
+      <h2>Android</h2>
+      <p class="sub">APK 直装 · 支持应用内更新</p>
+      <a class="dl" href="./releases/android/study-hub-2.0.0.apk" download>下载 APK · 10.7 MB</a>
+      <dl class="facts">
+        <dt>文件</dt><dd>study-hub-2.0.0.apk</dd>
+        <dt>体积</dt><dd>10.7 MB</dd>
+        <dt>SHA-256</dt><dd title="d8a8cb676fc60ad70b5ae0f17c46d26cb44ea28df4056cd83c688a5576bd0d67">d8a8cb676fc60ad7…</dd>
+      </dl>
+      <p class="note warn"><span>装好后右上角刷新按钮即可检查更新</span>，新版本会直接下载并校验签名再安装，不用再回这个页面。</p>
+      <p class="note">首次安装若提示「未知来源」，在系统弹出的设置里允许浏览器或文件管理器安装应用即可。</p>
+    </section>
+
+    <section class="card">
+      <h2>iOS</h2>
+      <p class="sub">未签名 IPA · 需自行重签</p>
+      <a class="dl alt" href="./releases/ios/study-hub-2.0.0-unsigned.ipa" download>下载 IPA · 8.3 MB</a>
+      <dl class="facts">
+        <dt>文件</dt><dd>study-hub-2.0.0-unsigned.ipa</dd>
+        <dt>体积</dt><dd>8.3 MB</dd>
+        <dt>SHA-256</dt><dd title="679408de270554f862be1900662aae272f735e2b1aecf1167218c8921f189f92">679408de270554f8…</dd>
+      </dl>
+      <p class="note">iOS 不允许侧载未签名应用，苹果的规则决定了这一步绕不开。用 <b>AltStore</b>、<b>Sideloadly</b> 或 Xcode 以你自己的 Apple ID 重签即可安装（免费账号 7 天有效，需定期续签）。</p>
+    </section>
+  </div>
+
+  <h3>安装步骤</h3>
+  <ol>
+    <li><b>Android：</b>下载 APK → 点击安装 → 允许「安装未知应用」→ 完成。之后更新走应用内，不用再回来。</li>
+    <li><b>iOS：</b>下载 IPA → 用 AltStore / Sideloadly 连接电脑重签 → 手机上信任描述文件（设置 → 通用 → VPN 与设备管理）。</li>
+    <li><b>只想快速看：</b>直接用网页版，内容和 App 完全一致，且每次打开都是最新的。</li>
+  </ol>
+
+  <div class="web">
+    <div>
+      <strong>网页版</strong>
+      <span>HTML 不缓存，资源按构建号缓存；右下角可一键刷新到最新。</span>
+    </div>
+    <a class="dl ghost" href="https://yuetongdai0-glitch.github.io/study-review-hub/">打开网页版 →</a>
+  </div>
+
+  <footer>
+    <span>© 2026 备考复习 · 本机构建，非商店分发</span>
+    <a href="./app-version.json">app-version.json</a>
+  </footer>
+</div>
+</body>
+</html>
