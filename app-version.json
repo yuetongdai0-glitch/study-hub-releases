@@ -3,23 +3,23 @@
   "app": "study-hub",
   "appId": "app.studyhub.reader",
   "appVersion": "2.0.0",
-  "publishedAt": "2026-10-19T08:56:24.733Z",
+  "publishedAt": "2026-10-19T09:00:22.347Z",
   "android": {
     "versionCode": 20000,
     "versionName": "2.0.0",
     "minSdk": 23,
     "apkUrl": "https://yuetongdai0-glitch.github.io/study-hub-releases/releases/android/study-hub-2.0.0.apk",
-    "sha256": "d8a8cb676fc60ad70b5ae0f17c46d26cb44ea28df4056cd83c688a5576bd0d67",
-    "sizeBytes": 11192249
+    "sha256": "f071bdfa59e5666522b3767afb372ba851e25ba485d93183000c107a73995ac2",
+    "sizeBytes": 11192290
   },
   "web": {
     "url": "https://yuetongdai0-glitch.github.io/study-review-hub/",
-    "buildId": "20261019-7ab8d822",
+    "buildId": "2.0.0-7ab8d822",
     "version": "2.0.0"
   },
   "ios": {
     "url": "https://yuetongdai0-glitch.github.io/study-hub-releases/releases/ios/study-hub-2.0.0-unsigned.ipa",
-    "sha256": "679408de270554f862be1900662aae272f735e2b1aecf1167218c8921f189f92",
+    "sha256": "39266741fff69bfd1c58486d03ff2ef98708de7622c96614a65ba435d9e303a7",
     "signed": false,
     "note": "未签名包，需用 AltStore / Sideloadly / Xcode 用自己 Apple ID 重签后安装"
   }
