@@ -2,19 +2,19 @@
   "schema": 1,
   "app": "study-hub",
   "appId": "app.studyhub.reader",
-  "appVersion": "2.0.1",
-  "publishedAt": "2026-10-19T11:39:23.597Z",
+  "appVersion": "2.0.2",
+  "publishedAt": "2026-10-19T11:45:24.214Z",
   "android": {
-    "versionCode": 20001,
-    "versionName": "2.0.1",
+    "versionCode": 20002,
+    "versionName": "2.0.2",
     "minSdk": 23,
-    "apkUrl": "https://yuetongdai0-glitch.github.io/study-hub-releases/releases/android/study-hub-2.0.1.apk",
-    "sha256": "1992d441ba8cd90a154b3b74aba1b7f44e3dfa19721b1549e4929faffbad8be4",
-    "sizeBytes": 4522525
+    "apkUrl": "https://yuetongdai0-glitch.github.io/study-hub-releases/releases/android/study-hub-2.0.2.apk",
+    "sha256": "ba6fa001a29f29c3bddd53f7d00326d8bb5c109a537e0761d13647fd50632e68",
+    "sizeBytes": 4523347
   },
   "web": {
     "url": "https://yuetongdai0-glitch.github.io/study-review-hub/",
-    "buildId": "2.0.1-e74349b5",
-    "version": "2.0.1"
+    "buildId": "2.0.2-fdb6d818",
+    "version": "2.0.2"
   }
 }
